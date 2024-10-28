@@ -20,4 +20,5 @@ api_version = "2024-10"
 embedded = false
 
 [build]
-dev_store_url = "matilda-mama.myshopify.com"
+dev_store_url = "kendy-florals.myshopify.com"
+include_config_on_deploy = true
