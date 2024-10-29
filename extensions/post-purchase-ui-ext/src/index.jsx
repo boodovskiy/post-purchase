@@ -132,7 +132,7 @@ export function App() {
           </TextContainer>
         </BlockStack>
       </CalloutBanner>
-      <Layout
+      <Layout 
         media={[
           { viewportSize: "small", sizes: [1, 0, 1], maxInlineSize: 0.9 },
           { viewportSize: "medium", sizes: [532, 0, 1], maxInlineSize: 420 },
@@ -246,3 +246,5 @@ function formatCurrency(amount) {
   }
   return `$${amount}`;
 }
+
+// end of file
